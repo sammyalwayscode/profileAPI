@@ -5,6 +5,6 @@ import profileRoute from "../router/profile.route";
 const router = Router();
 
 router.get("/", homeRoute);
-router.get("/profile", profileRoute);
+router.use("/profile", profileRoute);
 
 export default router;

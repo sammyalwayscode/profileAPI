@@ -3,6 +3,7 @@ import { ErrorArgs } from "../interface";
 export enum Httpcode {
   OK = 200,
   CREATED = 201,
+  RESOURCE_UPDATED_SUCCESSFULLY = 204,
   BAD_REQUEST = 400,
   UNAUTORIZED = 402,
   FOBIDDEN = 403,

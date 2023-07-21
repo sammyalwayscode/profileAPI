@@ -1,4 +1,4 @@
-import { Document } from "mongoose";
+import { Document, ObjectId } from "mongoose";
 import { Httpcode } from "../utils/appError";
 
 export interface ErrorArgs {
