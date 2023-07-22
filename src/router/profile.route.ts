@@ -12,7 +12,7 @@ const router = Router();
 router.get("/allprofile", getAllProfile);
 router.get("/userprofile/:id", getOneProfile);
 router.post("/newprofile", createProfile);
-router.put("/editprofile/:id", updateProfile);
+router.patch("/editprofile/:profileID", updateProfile);
 router.delete("/removeprofile/:id", removeProfile);
 
 export default router;
