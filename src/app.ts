@@ -4,7 +4,7 @@ import cors from "cors";
 import api from "./api";
 import { AppError, Httpcode } from "./utils/appError";
 
-const appConfig = (app) => {
+const appConfig = (app: any) => {
   app
     .use(express.json())
     .use(morgan("dev"))

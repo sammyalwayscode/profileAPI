@@ -59,7 +59,7 @@ export const createProfile = async (
       data: newProfile,
     });
   } catch (error) {
-    return res.status(404).json({
+    return res.status(Httpcode.BAD_REQUEST).json({
       message: "An Error Occoured... Couldn't create a new Profile",
       data: error,
     });
